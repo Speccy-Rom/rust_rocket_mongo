@@ -1,0 +1,22 @@
+---
+server:
+  host: 127.0.0.1
+  port: 8080
+  keep_alive: 60
+  forms_limit: 262144
+  json_limit: 1048576
+  secret_key: 6E5A7234753778214125442A472D4B6150645367556B58703273357638792F42
+ssl:
+  enabled: no
+  generate_self_signed: yes
+#  If generate_self_signed is `NO`; enable the below 2 keys & specify the path
+#  key_file: key.pem
+#  cert_file: cert.pem
+mongo_db:
+  mongo_host: localhost
+  mongo_port: 27017
+  auth_user: ""
+  auth_pass: ""
+  db:
+    user_db: users
+    user_collection: users
